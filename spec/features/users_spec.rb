@@ -9,7 +9,7 @@ feature 'User Features' do
   end
 
   scenario "add a new user will add new user" do
-    click_link("Create New User")
+    click_link("Sign up!")
     fill_in "Username", with: "JohnnyTsunami"
     find(".newuser").fill_in "Email", with: "jtsunami@gmail.com"
     find(".newuser").fill_in "Password", with: "password"
